@@ -1,0 +1,7 @@
+Engenharia de dados - aula 1
+
+Banco de dados relacional: Armazenamento em linhas e colunas, como por exemplo excel.
+
+SGBD: sistema de gerenciamento de banco de dados.
+
+-dados, info, conhecimento, sabedoria.
