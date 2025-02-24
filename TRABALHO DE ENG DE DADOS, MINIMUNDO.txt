@@ -1,0 +1,8 @@
+TRABALHO DE ENG DE DADOS, MINIMUNDO
+
+Uma escola deseja criar um sistema para organizar melhor os seus alunos, no sistema deve ser possível informa o nome, idade, matricula, telefone dos pais, matricula, sexo, turma, mensalidade e endereço levando em consideração (rua, bairro e cidade), também tem que possuir o nome completos dos responsáveis e em que unidade e cidade o aluno esta matriculado, cada unidade deve ter esclarecido a sua localização (cidade, rua e bairro) e código da unidade.
+
+Os aluno também podem ser divididos pelo professores ou docentes da turma que ele foi assignado, levando em consideração a sala e a turma do aluno, para facilitar a busca dos dados de certo aluno em específicos, tipo as notas ou os horários das turmas dos alunos. 
+
+
+
