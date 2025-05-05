@@ -1,0 +1,18 @@
+CREATE SCHEMA loja;
+
+USE loja;
+
+CREATE TABLE pessoa (
+idpessoa INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE carro (
+idcarro INT AUTO_INCREMENT PRIMARY KEY,
+modelo VARCHAR(20) NOT NULL,
+idpessoa INT,
+FOREIGN KEY (idpessoa) REFERENCES pessoa (idpessoa)
+ON DELETE SET NULL
+);
+
+
