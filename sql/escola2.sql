@@ -94,54 +94,28 @@ WHERE codcurso = 5;
 SELECT * FROM curso;
 
 -- ---------------------------------------------------------------------
+SELECT * FROM curso;
 
 -- EX 23
-UPDATE curso SET preco = 1000
-WHERE codcurso = 2;
+UPDATE curso SET preco = "1000"
+WHERE codcurso = "2";
 
-SELECT * FROM curso;
-
--- EX24
-UPDATE curso SET coddepto = 2
-WHERE codcurso = 5;
-
-SELECT * FROM curso;
+-- EX 24
+UPDATE curso SET coddepto = "2"
+WHERE codcurso = "5";
 
 -- EX 25
-UPDATE curso SET ch = 80
-WHERE codcurso = 4;
-
-SELECT * FROM curso;
+UPDATE curso SET ch = "80"
+WHERE codcurso = "4";
 
 -- EX 26
 UPDATE curso SET preco = preco * 1.2
-WHERE coddepto = 1;
-
-SELECT * FROM curso;
+WHERE coddepto = "1";
 
 -- EX 27
 UPDATE curso SET preco = preco - 50
-WHERE coddepto = 2;
-
-SELECT * FROM curso;
+WHERE coddepto = "2";
 
 -- EX 28
 UPDATE curso SET preco = preco - preco * 0.1
-WHERE ch < 80
-AND preco > 1000;
-
-SELECT * FROM matricula;
-
--- EX 29
-BEGIN;
-DELETE FROM funcionario;
-SELECT * FROM funcionario;
-ROLLBACK; 
-
-
--- EX 30
-BEGIN;
-DELETE FROM matricula
-WHERE dtmatricula > '2019-04-04' AND matri = 3;
-SELECT * FROM matricula;
-ROLLBACK;
+WHERE ch < 80 AND preco > 1000;

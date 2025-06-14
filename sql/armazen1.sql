@@ -1,7 +1,3 @@
-CREATE SCHEMA armazen;
-
-USE armazen;
-
 -- EX 01
 SELECT nomecliente, genero
 FROM cliente;

@@ -1,4 +1,7 @@
--- SCRIPT GERADO PARA MYSQL VS. 12-05-2025
+CREATE SCHEMA armazen;
+
+USE armazen;
+
 CREATE TABLE cliente (
   idcliente integer PRIMARY KEY,
   nomecliente varchar(50),

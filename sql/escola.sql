@@ -1,3 +1,5 @@
+CREATE SCHEMA escola;
+
 USE escola;
 
 CREATE TABLE aluno ( -- Tabela aluno
